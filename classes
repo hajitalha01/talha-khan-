@@ -1,0 +1,53 @@
+# Class 1
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def show_name(self):
+        print("Name:", self.name)
+
+
+# Class 2
+class Student(Person):
+    def __init__(self, name, roll_no):
+        super().__init__(name)
+        self.roll_no = roll_no
+
+    def show_roll(self):
+        print("Roll No:", self.roll_no)
+
+
+# Class 3
+class Teacher(Person):
+    def __init__(self, name, subject):
+        super().__init__(name)
+        self.subject = subject
+
+    def show_subject(self):
+        print("Subject:", self.subject)
+
+
+# Class 4
+class School:
+    def __init__(self, school_name):
+        self.school_name = school_name
+
+    def show_school(self):
+        print("School:", self.school_name)
+
+
+# Main Program
+student = Student("Ali", 101)
+teacher = Teacher("Ahmed", "Computer Science")
+school = School("ABC Public School")
+
+print("Student Information")
+student.show_name()
+student.show_roll()
+
+print("\nTeacher Information")
+teacher.show_name()
+teacher.show_subject()
+
+print("\nSchool Information")
+school.show_school()

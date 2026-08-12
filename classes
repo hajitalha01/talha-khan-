@@ -1,4 +1,4 @@
-# Class 1
+# Class 
 class Person:
     def __init__(self, name):
         self.name = name
@@ -7,7 +7,7 @@ class Person:
         print("Name:", self.name)
 
 
-# Class 2
+# Class 
 class Student(Person):
     def __init__(self, name, roll_no):
         super().__init__(name)

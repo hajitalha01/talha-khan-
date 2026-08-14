@@ -3,7 +3,7 @@ class Person:
     def __init__(self, name):
         self.name = name
 
-    def show_name(self):
+    def show_name(self): 
         print("Name:", self.name)
 
 

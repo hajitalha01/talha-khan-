@@ -1,4 +1,4 @@
-@@# 🧠 AI Resume Analyzer — Streamlit App
+@# 🧠 AI Resume Analyzer — Streamlit App
 
 A full-stack, production-style Streamlit dashboard that analyses resumes using
 your trained scikit-learn model from `good_ml_project.ipynb`.
